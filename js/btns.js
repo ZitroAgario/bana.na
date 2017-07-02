@@ -9,12 +9,12 @@ function hmoc() {
         }
     }
 }
-$(function() {
+function hm() {
     var modals = document.querySelectorAll(".modal");
     for (var i = 0; i < modals.length; i++) {
         hnra(modals[i]);
     }
-});
+}
 $(function() {
     document.querySelector("#logbtn").onclick = function() {
         snsa(lf);
