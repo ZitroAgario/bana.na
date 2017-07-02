@@ -1,0 +1,104 @@
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    5% {
+        opacity: 0.05;
+    }
+    10% {
+        opacity: 0.10;
+    }
+    15% {
+        opacity: 0.15;
+    }
+    20% {
+        opacity: 0.20;
+    }
+    25% {
+        opacity: 0.25;
+    }
+    30% {
+        opacity: 0.30;
+    }
+    35% {
+        opacity: 0.35;
+    }
+    40% {
+        opacity: 0.40;
+    }
+    45% {
+        opacity: 0.45;
+    }
+    50% {
+        opacity: 0.50;
+    }
+    55% {
+        opacity: 0.55;
+    }
+    60% {
+        opacity: 0.60;
+    }
+    65% {
+        opacity: 0.65;
+    }
+    70% {
+        opacity: 0.70;
+    }
+    75% {
+        opacity: 0.75;
+    }
+    80% {
+        opacity: 0.80;
+    }
+    85% {
+        opacity: 0.85;
+    }
+    90% {
+        opacity: 0.90;
+    }
+    95% {
+        opacity: 0.95;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes rbwdsh {
+    0% {
+        background-color: red;
+        color: white;
+    }
+    12.5% {
+        background-color: orangered;
+        color: white;
+    }
+    25% {
+        background-color: yellow;
+        color: white;
+    }
+    37.5% {
+        background-color: lime;
+        color: white;
+    }
+    50% {
+        background-color: aqua;
+        color: red;
+    }
+    62.5% {
+        background-color: teal;
+        color: white;
+    }
+    75% {
+        background-color: blue;
+        color: white;
+    }
+    87.5% {
+        background-color: blueviolet;
+        color: white;
+    }
+    100% {
+        background-color: gray;
+        color: white;
+    }
+}

@@ -1,0 +1,34 @@
+.err {
+    background-color: red;
+    background-color: rgba(255, 0, 0, 0.5);
+    color: yellow;
+    display: table;
+    font-size: 24pt;
+    height: 135px;
+    text-align: center;
+    width: 800px;
+}
+
+.err::before {
+    content: url("../img/pngicons/cross.png");
+}
+
+.tick {
+    background-color: green;
+    background-color: rgba(0, 255, 0, 0.5);
+    color: darkorchid;
+    display: table;
+    font-size: 24pt;
+    height: 135px;
+    text-align: center;
+    width: 800px;
+}
+
+.tick::before {
+    content: url("../img/pngicons/success.png");
+}
+
+span.ect {
+    display: table-cell;
+    vertical-align: middle;
+}
